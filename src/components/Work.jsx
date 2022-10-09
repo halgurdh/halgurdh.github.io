@@ -9,11 +9,11 @@ const Work = () => {
     //setProject(data);
   
   return (
-    <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
+    <div name='work' className='pt-52 sm:pt-2 w-full md:h-screen text-gray-300 bg-[#0a192f]'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#dd3333]'>
-            Work
+            Projects
           </p>
           <p className='py-6'>// Check out some of my recent work</p>
         </div>
@@ -27,19 +27,28 @@ const Work = () => {
     key={index}
     style={{ backgroundColor: 'grey' }}
     className="shadow-lg shadow-[#040c16] group container rounded-md 
-              flex justify-center text-center items-center mx-auto content-div "
+              flex justify-center text-center items-center mx-auto content-div hover:scale-105"
   >
     {/* Hover effect for images */}
     <div>
-      <span className="text-2xl font bold text-white tracking-wider ">
+      <span className="text-2xl font bold text-white tracking-wider">
         {item.name}
       </span>
-      <div className="pt-8 text-center ">
+      <div className="pt-8 text-center">
         {/* eslint-disable-next-line */}
+        {item.live && <a href={item.live} target="_blank">
+          <button
+            className="text-center rounded-lg px-4 py-3 m-2
+                       bg-white text-gray-700 font-bold text-lg hover:scale-110"
+          >
+            Live
+          </button>
+        </a>
+        }
         <a href={item.github} target="_blank">
           <button
             className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg"
+                       bg-white text-gray-700 font-bold text-lg hover:scale-110"
           >
             Code
           </button>
