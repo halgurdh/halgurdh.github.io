@@ -6,6 +6,7 @@ import {
   FaLinkedin,
   FaSpotify,
   FaInstagram,
+  FaYoutube,
 } from "react-icons/fa";
 import { Link } from "react-scroll";
 
@@ -21,17 +22,17 @@ const Navbar = () => {
 
       {/* menu */}
       <ul className="hidden md:flex">
-        <li>
+        <li className="hover:font-bold hover:scale-125">
           <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li>
+        <li className="hover:font-bold hover:scale-125">
           <Link to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li>
+        <li className="hover:font-bold hover:scale-125">
           <Link to="work" smooth={true} duration={500}>
             Work
           </Link>
@@ -88,7 +89,7 @@ const Navbar = () => {
               Linkedin <FaLinkedin size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#dd3333]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-yellow-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/halgurdh/"
@@ -113,6 +114,15 @@ const Navbar = () => {
               target="_blank"
             >
               Instagram <FaInstagram size={30} />
+            </a>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red-600">
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href="https://www.youtube.com/channel/UCphudYz0DxkskQGke7qhQvQ"
+              target="_blank"
+            >
+              Youtube <FaYoutube size={30} />
             </a>
           </li>
         </ul>
