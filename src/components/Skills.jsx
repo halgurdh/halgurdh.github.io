@@ -29,213 +29,217 @@ const Skills = () => {
     >
       {/* Container */}
       <div className="max-w-[1000px] mx-auto pt-96 sm:pt-2 p-4 flex flex-col justify-center w-full h-full">
-        <div>
-          <p className="text-4xl font-bold inline border-b-4 border-[#dd3333] ">
-            Skills
-          </p>
-          <p className="py-4">// These are the technologies I've worked with</p>
-        </div>
+        <div className="pt-80 sm:pt-5">
+          <div>
+            <p className="text-4xl font-bold inline border-b-4 border-[#dd3333] ">
+              Skills
+            </p>
+            <p className="py-4">
+              // These are the technologies I've worked with
+            </p>
+          </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
-          <div className="shadow-md shadow-[#040c16] group">
-            <img
-              className="group-hover:animate-bounce m w-20 m mx-auto"
-              src={HTML}
-              alt="HTML icon"
-            />
-            <p className="my-4 group-hover:text-bold group-hover:scale-125">
-              HTML
-            </p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] group">
-            <img
-              className="group-hover:animate-bounce m w-20 m mx-auto"
-              src={CSS}
-              alt="CSS icon"
-            />
-            <p className="my-4 group-hover:text-bold group-hover:scale-125">
-              CSS
-            </p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] group">
-            <img
-              className="group-hover:animate-bounce m w-20 m mx-auto"
-              src={JavaScript}
-              alt="JavaScript icon"
-            />
-            <p className="my-4 group-hover:text-bold group-hover:scale-125">
-              JAVASCRIPT
-            </p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] group">
-            <img
-              className="group-hover:animate-bounce m w-20 m mx-auto"
-              src={ReactImg}
-              alt="React icon"
-            />
-            <p className="my-4 group-hover:text-bold group-hover:scale-125">
-              REACTJS
-            </p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] group">
-            <img
-              className="group-hover:animate-bounce m w-20 m mx-auto"
-              src={GitHub}
-              alt="GitHub icon"
-            />
-            <p className="my-4 group-hover:text-bold group-hover:scale-125">
-              GITHUB
-            </p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] group">
-            <img
-              className="group-hover:animate-bounce m w-20 m mx-auto"
-              src={DevOps}
-              alt="DevOps icon"
-            />
-            <p className="my-4 group-hover:text-bold group-hover:scale-125">
-              DEVOPS
-            </p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] group">
-            <img
-              className="group-hover:animate-bounce m w-20 m mx-auto"
-              src={Tailwind}
-              alt="Tailwind icon"
-            />
-            <p className="my-4 group-hover:text-bold group-hover:scale-125">
-              TAILWIND
-            </p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] group">
-            <img
-              className="group-hover:animate-bounce m w-20 m mx-auto"
-              src={CSharp}
-              alt="CSharp icon"
-            />
-            <p className="my-4 group-hover:text-bold group-hover:scale-125">
-              CSHARP
-            </p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] group">
-            <img
-              className="group-hover:animate-bounce m w-20 m mx-auto"
-              src={Azure}
-              alt="Azure icon"
-            />
-            <p className="my-4 group-hover:text-bold group-hover:scale-125">
-              AZURE
-            </p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] group">
-            <img
-              className="group-hover:animate-bounce m w-20 m mx-auto"
-              src={NodeJS}
-              alt="NodeJS icon"
-            />
-            <p className="my-4 group-hover:text-bold group-hover:scale-125">
-              NODEJS
-            </p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] group">
-            <img
-              className="group-hover:animate-bounce m w-20 m mx-auto"
-              src={VSCode}
-              alt="VSCode icon"
-            />
-            <p className="my-4 group-hover:text-bold group-hover:scale-125">
-              VSCODE
-            </p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] group">
-            <img
-              className="group-hover:animate-bounce m w-20 m mx-auto"
-              src={VS2022}
-              alt="VS2022 icon"
-            />
-            <p className="my-4 group-hover:text-bold group-hover:scale-125">
-              VS2022
-            </p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] group">
-            <img
-              className="group-hover:animate-bounce m w-20 m mx-auto"
-              src={NETCore}
-              alt="NETCore icon"
-            />
-            <p className="my-4 group-hover:text-bold group-hover:scale-125">
-              DOTNET
-            </p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] group">
-            <img
-              className="group-hover:animate-bounce m w-20 m mx-auto"
-              src={Bash}
-              alt="Bash icon"
-            />
-            <p className="my-4 group-hover:text-bold group-hover:scale-125">
-              BASH
-            </p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] group">
-            <img
-              className="group-hover:animate-bounce m w-20 m mx-auto"
-              src={Bootstrap}
-              alt="Bootstrap icon"
-            />
-            <p className="my-4 group-hover:text-bold group-hover:scale-125">
-              BOOTSTRAP
-            </p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] group">
-            <img
-              className="group-hover:animate-bounce m w-20 m mx-auto"
-              src={Webpack}
-              alt="Webpack icon"
-            />
-            <p className="my-4 group-hover:text-bold group-hover:scale-125">
-              WEBPACK
-            </p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] group">
-            <img
-              className="group-hover:animate-bounce m w-20 m mx-auto"
-              src={Npm}
-              alt="Npm icon"
-            />
-            <p className="my-4 group-hover:text-bold group-hover:scale-125">
-              NPM
-            </p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] group">
-            <img
-              className="group-hover:animate-bounce m w-20 m mx-auto"
-              src={NUnit}
-              alt="NUnit icon"
-            />
-            <p className="my-4 group-hover:text-bold group-hover:scale-125">
-              NUnit
-            </p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] group">
-            <img
-              className="group-hover:animate-bounce m w-20 m mx-auto"
-              src={TypeScript}
-              alt="TypeScript icon"
-            />
-            <p className="my-4 group-hover:text-bold group-hover:scale-125">
-              TypeScript
-            </p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] group">
-            <img
-              className="group-hover:animate-bounce m w-20 m mx-auto"
-              src={NextJS}
-              alt="NextJS icon"
-            />
-            <p className="my-4 group-hover:text-bold group-hover:scale-125">
-              NextJS
-            </p>
+          <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+            <div className="shadow-md shadow-[#040c16] group">
+              <img
+                className="group-hover:animate-bounce m w-20 m mx-auto"
+                src={HTML}
+                alt="HTML icon"
+              />
+              <p className="my-4 group-hover:text-bold group-hover:scale-125">
+                HTML
+              </p>
+            </div>
+            <div className="shadow-md shadow-[#040c16] group">
+              <img
+                className="group-hover:animate-bounce m w-20 m mx-auto"
+                src={CSS}
+                alt="CSS icon"
+              />
+              <p className="my-4 group-hover:text-bold group-hover:scale-125">
+                CSS
+              </p>
+            </div>
+            <div className="shadow-md shadow-[#040c16] group">
+              <img
+                className="group-hover:animate-bounce m w-20 m mx-auto"
+                src={JavaScript}
+                alt="JavaScript icon"
+              />
+              <p className="my-4 group-hover:text-bold group-hover:scale-125">
+                JAVASCRIPT
+              </p>
+            </div>
+            <div className="shadow-md shadow-[#040c16] group">
+              <img
+                className="group-hover:animate-bounce m w-20 m mx-auto"
+                src={ReactImg}
+                alt="React icon"
+              />
+              <p className="my-4 group-hover:text-bold group-hover:scale-125">
+                REACTJS
+              </p>
+            </div>
+            <div className="shadow-md shadow-[#040c16] group">
+              <img
+                className="group-hover:animate-bounce m w-20 m mx-auto"
+                src={GitHub}
+                alt="GitHub icon"
+              />
+              <p className="my-4 group-hover:text-bold group-hover:scale-125">
+                GITHUB
+              </p>
+            </div>
+            <div className="shadow-md shadow-[#040c16] group">
+              <img
+                className="group-hover:animate-bounce m w-20 m mx-auto"
+                src={DevOps}
+                alt="DevOps icon"
+              />
+              <p className="my-4 group-hover:text-bold group-hover:scale-125">
+                DEVOPS
+              </p>
+            </div>
+            <div className="shadow-md shadow-[#040c16] group">
+              <img
+                className="group-hover:animate-bounce m w-20 m mx-auto"
+                src={Tailwind}
+                alt="Tailwind icon"
+              />
+              <p className="my-4 group-hover:text-bold group-hover:scale-125">
+                TAILWIND
+              </p>
+            </div>
+            <div className="shadow-md shadow-[#040c16] group">
+              <img
+                className="group-hover:animate-bounce m w-20 m mx-auto"
+                src={CSharp}
+                alt="CSharp icon"
+              />
+              <p className="my-4 group-hover:text-bold group-hover:scale-125">
+                CSHARP
+              </p>
+            </div>
+            <div className="shadow-md shadow-[#040c16] group">
+              <img
+                className="group-hover:animate-bounce m w-20 m mx-auto"
+                src={Azure}
+                alt="Azure icon"
+              />
+              <p className="my-4 group-hover:text-bold group-hover:scale-125">
+                AZURE
+              </p>
+            </div>
+            <div className="shadow-md shadow-[#040c16] group">
+              <img
+                className="group-hover:animate-bounce m w-20 m mx-auto"
+                src={NodeJS}
+                alt="NodeJS icon"
+              />
+              <p className="my-4 group-hover:text-bold group-hover:scale-125">
+                NODEJS
+              </p>
+            </div>
+            <div className="shadow-md shadow-[#040c16] group">
+              <img
+                className="group-hover:animate-bounce m w-20 m mx-auto"
+                src={VSCode}
+                alt="VSCode icon"
+              />
+              <p className="my-4 group-hover:text-bold group-hover:scale-125">
+                VSCODE
+              </p>
+            </div>
+            <div className="shadow-md shadow-[#040c16] group">
+              <img
+                className="group-hover:animate-bounce m w-20 m mx-auto"
+                src={VS2022}
+                alt="VS2022 icon"
+              />
+              <p className="my-4 group-hover:text-bold group-hover:scale-125">
+                VS2022
+              </p>
+            </div>
+            <div className="shadow-md shadow-[#040c16] group">
+              <img
+                className="group-hover:animate-bounce m w-20 m mx-auto"
+                src={NETCore}
+                alt="NETCore icon"
+              />
+              <p className="my-4 group-hover:text-bold group-hover:scale-125">
+                DOTNET
+              </p>
+            </div>
+            <div className="shadow-md shadow-[#040c16] group">
+              <img
+                className="group-hover:animate-bounce m w-20 m mx-auto"
+                src={Bash}
+                alt="Bash icon"
+              />
+              <p className="my-4 group-hover:text-bold group-hover:scale-125">
+                BASH
+              </p>
+            </div>
+            <div className="shadow-md shadow-[#040c16] group">
+              <img
+                className="group-hover:animate-bounce m w-20 m mx-auto"
+                src={Bootstrap}
+                alt="Bootstrap icon"
+              />
+              <p className="my-4 group-hover:text-bold group-hover:scale-125">
+                BOOTSTRAP
+              </p>
+            </div>
+            <div className="shadow-md shadow-[#040c16] group">
+              <img
+                className="group-hover:animate-bounce m w-20 m mx-auto"
+                src={Webpack}
+                alt="Webpack icon"
+              />
+              <p className="my-4 group-hover:text-bold group-hover:scale-125">
+                WEBPACK
+              </p>
+            </div>
+            <div className="shadow-md shadow-[#040c16] group">
+              <img
+                className="group-hover:animate-bounce m w-20 m mx-auto"
+                src={Npm}
+                alt="Npm icon"
+              />
+              <p className="my-4 group-hover:text-bold group-hover:scale-125">
+                NPM
+              </p>
+            </div>
+            <div className="shadow-md shadow-[#040c16] group">
+              <img
+                className="group-hover:animate-bounce m w-20 m mx-auto"
+                src={NUnit}
+                alt="NUnit icon"
+              />
+              <p className="my-4 group-hover:text-bold group-hover:scale-125">
+                NUnit
+              </p>
+            </div>
+            <div className="shadow-md shadow-[#040c16] group">
+              <img
+                className="group-hover:animate-bounce m w-20 m mx-auto"
+                src={TypeScript}
+                alt="TypeScript icon"
+              />
+              <p className="my-4 group-hover:text-bold group-hover:scale-125">
+                TypeScript
+              </p>
+            </div>
+            <div className="shadow-md shadow-[#040c16] group">
+              <img
+                className="group-hover:animate-bounce m w-20 m mx-auto"
+                src={NextJS}
+                alt="NextJS icon"
+              />
+              <p className="my-4 group-hover:text-bold group-hover:scale-125">
+                NextJS
+              </p>
+            </div>
           </div>
         </div>
       </div>
