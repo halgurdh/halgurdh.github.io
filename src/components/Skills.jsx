@@ -217,7 +217,7 @@ const Skills = () => {
                 alt="NUnit icon"
               />
               <p className="my-4 group-hover:text-bold group-hover:scale-125">
-                NUnit
+                NUNIT
               </p>
             </div>
             <div className="shadow-md shadow-[#040c16] group">
@@ -227,7 +227,7 @@ const Skills = () => {
                 alt="TypeScript icon"
               />
               <p className="my-4 group-hover:text-bold group-hover:scale-125">
-                TypeScript
+                TYPESCRIPT
               </p>
             </div>
             <div className="shadow-md shadow-[#040c16] group">
@@ -237,7 +237,7 @@ const Skills = () => {
                 alt="NextJS icon"
               />
               <p className="my-4 group-hover:text-bold group-hover:scale-125">
-                NextJS
+                NEXTJS
               </p>
             </div>
           </div>
