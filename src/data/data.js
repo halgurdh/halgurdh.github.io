@@ -31,4 +31,9 @@ export const data = [
     name: "TruffleJS Blockchain",
     github: "https://github.com/halgurdh/blockchain-as-a-service",
   },
+  {
+    id: 7,
+    name: "Microsoft ChatBot Demo in C#",
+    github: "https://github.com/halgurdh/MinitoonChatBot",
+  },
 ];
