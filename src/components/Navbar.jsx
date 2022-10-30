@@ -7,6 +7,7 @@ import {
   FaSpotify,
   FaInstagram,
   FaYoutube,
+  FaSoundcloud,
 } from "react-icons/fa";
 import { Link } from "react-scroll";
 
@@ -80,7 +81,7 @@ const Navbar = () => {
       {/* Social icons */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
+          <li className="w-[180px] h-[60px] flex justify-between items-center ml-[-120px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/halgurdhussein/"
@@ -89,7 +90,7 @@ const Navbar = () => {
               Linkedin <FaLinkedin size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-yellow-600">
+          <li className="w-[180px] h-[60px] flex justify-between items-center ml-[-120px] hover:ml-[-10px] duration-300 bg-purple-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/halgurdh/"
@@ -98,7 +99,7 @@ const Navbar = () => {
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-green-600">
+          <li className="w-[180px] h-[60px] flex justify-between items-center ml-[-120px] hover:ml-[-10px] duration-300 bg-green-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://open.spotify.com/artist/27axU7fE93Z7h8OhRFrD4r"
@@ -107,7 +108,16 @@ const Navbar = () => {
               Spotify <FaSpotify size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-purple-600">
+          <li className="w-[180px] h-[60px] flex justify-between items-center ml-[-120px] hover:ml-[-10px] duration-300 bg-blue-600">
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href="https://soundcloud.com/officialallgood"
+              target="_blank"
+            >
+              Soundcloud <FaSoundcloud size={30} />
+            </a>
+          </li>
+          <li className="w-[180px] h-[60px] flex justify-between items-center ml-[-120px] hover:ml-[-10px] duration-300 bg-purple-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.instagram.com/chilledpunks/"
@@ -116,7 +126,7 @@ const Navbar = () => {
               Instagram <FaInstagram size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red-600">
+          <li className="w-[180px] h-[60px] flex justify-between items-center ml-[-120px] hover:ml-[-10px] duration-300 bg-red-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.youtube.com/channel/UCphudYz0DxkskQGke7qhQvQ"
