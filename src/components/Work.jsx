@@ -11,6 +11,7 @@ const Work = () => {
       name="work"
       className="pt-96 sm:pt-2 w-full md:h-screen text-gray-300 bg-[#0a192f]"
     >
+      <div className="pt-96 sm:pt-5"></div>
       <div className="pt-96 sm:pt-52 pb-32 bg-[#0a192f]">
         <div className="max-w-[1000px] mx-auto pt-96 sm:pt-2 p-4 flex flex-col justify-center w-full h-full">
           <div className="pb-8">

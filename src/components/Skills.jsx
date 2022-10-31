@@ -29,7 +29,12 @@ const Skills = () => {
     >
       {/* Container */}
       <div className="max-w-[1000px] mx-auto pt-96 sm:pt-2 p-4 flex flex-col justify-center w-full h-full">
-        <div className="pt-80 sm:pt-5">
+        <div className="pt-96 sm:pt-5">
+        </div>
+        <div className="pt-96 sm:pt-5">
+        </div>
+        <div className="pt-20 sm:pt-5">
+        </div>
           <div>
             <p className="text-4xl font-bold inline border-b-4 border-[#dd3333] ">
               Skills
@@ -241,7 +246,6 @@ const Skills = () => {
               </p>
             </div>
           </div>
-        </div>
       </div>
     </div>
   );

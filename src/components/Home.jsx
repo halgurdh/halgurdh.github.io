@@ -2,7 +2,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div name="home" className="pt-32 sm:pt-5 w-full h-screen bg-[#0a192f]">
+    <div name="home" className="pt-96 sm:pt-5 w-full h-screen bg-[#0a192f]">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-[#dd3333]">Hi, my name is</p>
@@ -23,7 +23,7 @@ const Home = () => {
             software engineer.
             <br/>
             <br/>
-            Checkout my <b className="text-[#dd3333]">Spotify (Lofi-Beats) & Soundcloud(Game Audio)</b> for my music works. 
+            Checkout my <b className="text-[#dd3333]">Spotify (Lofi-Beats) & Soundcloud (Game Audio)</b> for my music works. 
             I am specialized in a <b className="text-[#dd3333]">musical method</b> where you can make the 
             exciting part of your gameplay <b className="text-[#dd3333]">more exciting</b> by creating layer's of music. 
             You can create triggers in your game to make the music come to life at the right moment in game.
