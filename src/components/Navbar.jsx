@@ -120,7 +120,7 @@ const Navbar = () => {
           <li className="w-[180px] h-[60px] flex justify-between items-center ml-[-120px] hover:ml-[-10px] duration-300 bg-purple-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://www.instagram.com/chilledpunks/"
+              href="https://www.instagram.com/lofi.allgood/"
               target="_blank"
             >
               Instagram <FaInstagram size={30} />
