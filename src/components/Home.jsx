@@ -20,12 +20,12 @@ const Home = () => {
             at the Hogeschool: "Windesheim Flevoland" in Almere. In the
             meantime, I have{" "}
             <b className="text-[#dd3333]">5 years of experience</b> as a
-            software engineer.
+            software engineer. Specialized in the <b className="text-[#dd3333]">Microsoft EcoSystem</b>, like C#, .NET, Azure and more.
             <br/>
             <br/>
             Checkout my <b className="text-[#dd3333]">Spotify (Lofi-Beats) & Soundcloud (Game Audio)</b> for my music works. 
-            I am specialized in a <b className="text-[#dd3333]">musical method</b> where you can make the 
-            exciting part of your gameplay <b className="text-[#dd3333]">more exciting</b> by creating layer's of music. 
+            I am specialized in: <b className="text-[#dd3333]">Adaptive Music</b>, where you can make the 
+            exciting part of your gameplay <b className="text-[#dd3333]">POP out</b> by creating (vertical) layers of music. 
             You can create triggers in your game to make the music come to life at the right moment in game.
           </p>
         </div>
