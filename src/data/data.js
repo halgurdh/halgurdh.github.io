@@ -59,7 +59,7 @@
     live: "https://cdgbrands.com",
   },
   {
-    id: 12s,
+    id: 12,
     name: "Minitoon.Games - Indie Game Studio",
     live: "https://minitoon.games",
   }
