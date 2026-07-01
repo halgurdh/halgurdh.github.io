@@ -23,13 +23,13 @@ const Work = () => {
 
           {/* container for projects */}
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-            {/* Gird Item */}
-            {project.map((item, index) => (
+            {/* Grid Item - Reversed to show latest first */}
+            {[...project].reverse().map((item, index) => (
               <div
                 key={index}
                 style={{ backgroundColor: "grey" }}
                 className="shadow-lg shadow-[#040c16] group container rounded-md 
-              flex justify-center text-center items-center mx-auto content-div hover:scale-105"
+    flex justify-center text-center items-center mx-auto content-div hover:scale-105"
               >
                 {/* Hover effect for images */}
                 <div>
@@ -39,26 +39,25 @@ const Work = () => {
                   <div className="pt-8 text-center">
                     {/* eslint-disable-next-line */}
                     {item.live && (
-                      <a href={item.live} target="_blank">
+                      <a href={item.live} target="_blank" rel="noreferrer">
                         <button
                           className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg hover:scale-110"
+             bg-white text-gray-700 font-bold text-lg hover:scale-110"
                         >
                           Live
                         </button>
                       </a>
                     )}
                     {item.github && (
-                      <a href={item.github} target="_blank">
+                      <a href={item.github} target="_blank" rel="noreferrer">
                         <button
                           className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg hover:scale-110"
+             bg-white text-gray-700 font-bold text-lg hover:scale-110"
                         >
                           Code
                         </button>
                       </a>
                     )}
-                    {/* eslint-disable-next-line */}
                   </div>
                 </div>
               </div>
